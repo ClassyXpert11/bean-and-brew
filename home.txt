@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/0eeedcf8fa.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Bean and Brew</title>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="home.html"><img src="images/coffee_logo.png" alt="Coffee logo" width="80px"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="coffee.html">Coffee</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="bakedgoods.html">Baked Goods</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="prebook.html">Pre-book</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="bookaspace.html">Book a Space</a>
+            </li>
+          </ul>
+          <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+            <i class="fa-solid fa-bars fa-2xl"></i>
+          </button>
+          
+        </div>   
+      </div>
+    </nav>
+
+<!-- Off Canvas -->
+<div class="offcanvas offcanvas-start "  data-bs-theme="dark" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasExampleLabel">Other information</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <hr>
+    <div id="opening_times">
+      <span>
+        <h5>Our opening times</h5>
+        <hr>
+        <p>Mon - 9am - 5pm</p>
+        <p>Tue - 9am - 5pm</p>
+        <p>Wed - 9am - 5pm</p>
+        <p>Thu - 9am - 5pm</p>
+        <p>Fri - 9am - 5pm</p>
+        <p>Sat - 9am - 5pm</p>
+        <p>Sun - 10am - 4pm</p>
+      </span>
+    </div>
+
+  </div>
+</div>
+
+    <div id="top_sellers">
+      <span>
+        <h5>One of our top seller coffees</h5>
+        <hr>
+        <img src="images/top_selling_coffee.jpg" alt="Top selling coffee" width="100px">
+      </span>
+      
+      <span>
+        <h5>One of our top seller baked goods</h5>
+        <hr>
+        <img src="images/croissant.jpg" alt="croissant" width="100px">
+      </span>
+    </div>
+
+    <footer class="d-flex flex-wrap justify-content-between py-3 mt-auto fixed-bottom border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+          <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+        <span class="mb-3 mb-md-0 text-light">© 2024 Bean & Brew, inc.</span>
+      </div>
+  
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex " id="footerIcons">
+        <li class="ms-3"><a href="https://www.google.com/gmail/about/"><i class="fa-solid fa-envelope fa-2xl"></i></a></li>
+        <li class="ms-3"><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram fa-2xl"></i></a></li>
+        <li class="ms-3"><a href="https://twitter.com/"><i class="fa-brands fa-x-twitter fa-2xl"></i></a></li>
+        <li class="ms-3"><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook fa-2xl"></i></a></li>
+      </ul>
+    </footer>
+
+  </body>
+</html>

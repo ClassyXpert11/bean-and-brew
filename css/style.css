@@ -1,0 +1,51 @@
+body {
+  background-color: #181818;
+  color: #fff;
+}
+
+/*----------------------------------------------------------------------------Footer------------------------------------------------------------------------------------------------ */
+
+#footerIcons li i {
+  color: #c08404;
+  transition: 0.3s;
+}
+#footerIcons li i:hover {
+  color: #f5a905;
+  transform: translate(0, -2.5px);
+}
+
+main {
+  min-height: 100vh;
+}
+
+.card-footer a {
+  transition: 0.2s;
+}
+
+.card-footer a:hover {
+  transform: translate(0, -3px);
+  box-shadow: 0 0 40px -7px #f5a905;
+}
+/*----------------------------------------------------------------------------Footer------------------------------------------------------------------------------------------------ */
+
+/* ------------------------------------------------------------------------about page----------------------------------------------------------------------------------------------- */
+#map-container {
+  display: flex;
+  justify-content: center;
+}
+
+#info_container {
+  display: flex;
+  margin: 0 auto;
+  border: 2px solid #c08404;
+  border-radius: 10px;
+  text-align: center;
+  max-width: 600px;
+  padding: 15px;
+  margin-top: 15px;
+}
+/* ------------------------------------------------------------------------about page----------------------------------------------------------------------------------------------- */
+
+.card-img-top {
+  object-fit: cover;
+}
